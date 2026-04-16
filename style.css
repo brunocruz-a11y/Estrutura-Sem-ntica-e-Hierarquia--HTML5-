@@ -1,11 +1,9 @@
-/* Configurações básicas */
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* Suas outras configurações mantêm-se iguais */
     color: white;
     font-family: sans-serif;
     margin: 0;
@@ -16,8 +14,8 @@ body {
 
 header, footer, main {
     width: 100%;
-    max-width: 1000px; /* Limita a largura para não espalhar demais */
-    text-align: center; /* Centraliza textos e imagens internamente */
+    max-width: 1000px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,10 +41,9 @@ section {
 
 img {
     display: block;
-    margin: 20px auto; /* Centraliza a imagem */
+    margin: 20px auto; 
 }
 
-/* Estilo do formulário para ficar centralizado */
 form {
     display: inline-block;
     text-align: left;
