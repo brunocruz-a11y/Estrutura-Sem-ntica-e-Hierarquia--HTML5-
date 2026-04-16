@@ -1,0 +1,58 @@
+/* Configurações básicas */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* Suas outras configurações mantêm-se iguais */
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer, main {
+    width: 100%;
+    max-width: 1000px; /* Limita a largura para não espalhar demais */
+    text-align: center; /* Centraliza textos e imagens internamente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+/* Estilo do formulário para ficar centralizado */
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+}
