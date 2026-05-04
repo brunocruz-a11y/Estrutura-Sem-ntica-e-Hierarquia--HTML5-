@@ -2,8 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Nexus - Home</title>
+    <title>Nexus - Produtos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 <body>
     <header>
@@ -17,12 +18,11 @@
             </ul>
         </nav>
     </header>
-            <img src="img/logo.png" alt="Logo da Nexus Soluções Digitais" width="150">
     <main>
     <section>
         <h2>Nossos Produtos</h2>
         <article>
-            <h3>PC Gamer</h3>
+            <h3>Produto 1: Computador</h3>
             <p>Processador: AMD Ryzen 5 5600GT <br>
 Núcleos / Threads: 6 núcleos e 12 threads <br>
 Frequência máxima: até 4.6GHz <br>
@@ -37,11 +37,19 @@ Garantia do Fornecedor
 12 Meses <br>
 Itens Inclusos
 CABO DE ENERGIA <br>
-Peso:
-10000 gramas (bruto com embalagem).</p>
+Peso: 10000 gramas (bruto com embalagem).</p>
             <p>Preço: R$ 4.315,78</p>
         </article>
         </section>
+        <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Endereço:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+            <button type="submit">Enviar</button>
 </main>
     <footer>
         <p>&copy; 2024 Nexus Soluções Digitais - Todos os direitos reservados.</p>
